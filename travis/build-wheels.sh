@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e -x
 
-# Install a system package required by our library
+# Install a system package required by our library 
 yum install -y atlas-devel
 
 # Compile wheels
